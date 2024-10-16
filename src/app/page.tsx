@@ -1,6 +1,10 @@
-import { Header } from "@/sections/Header";
+import { Header } from "@/sections";
+
 
 
 export default function Home() {
-  return <Header />
+  return <>
+    <Header />
+  </>
+
 }
