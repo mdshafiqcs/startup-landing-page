@@ -8,22 +8,16 @@ const config: Config = {
   ],
   theme: {
     container: {
-      center: true,
+      center: true, 
       padding: {
         DEFAULT: "20px",
-        lg: "80px",
-      },
-      screens: {
-        sm: "375px",
-        md: "768px",
-        lg: "1200px",
+        sm:"30px",
+        md: "50px",
+        lg: "70px",
+        xl: "80px",
       },
     },
-    screens: {
-      sm: "375px",
-      md: "768px",
-      lg: "1200px",
-    },
+    
     extend: {},
   },
   plugins: [],
