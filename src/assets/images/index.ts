@@ -5,6 +5,13 @@ import avatar4 from "./avatar-4.png";
 
 import starsBg from "./stars.png";
 
+import acmeLogo from "./logo-acme.png";
+import apexLogo from "./logo-apex.png";
+import celestialLogo from "./logo-celestial.png";
+import echoLogo from "./logo-echo.png";
+import pulseLogo from "./logo-pulse.png";
+import quantumLogo from "./logo-quantum.png";
+
 
 
 export {
@@ -13,4 +20,10 @@ export {
   avatar3,
   avatar4,
   starsBg,
+  acmeLogo,
+  apexLogo,
+  celestialLogo,
+  echoLogo,
+  pulseLogo,
+  quantumLogo,
 }
