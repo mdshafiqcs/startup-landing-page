@@ -12,6 +12,8 @@ import echoLogo from "./logo-echo.png";
 import pulseLogo from "./logo-pulse.png";
 import quantumLogo from "./logo-quantum.png";
 
+import productImage from "./product-image.png";
+
 
 
 export {
@@ -26,4 +28,5 @@ export {
   echoLogo,
   pulseLogo,
   quantumLogo,
+  productImage,
 }
