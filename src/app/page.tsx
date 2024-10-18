@@ -1,4 +1,4 @@
-import { CallToAction, Features, Header, Hero, LogoTicker, Testimonials } from "@/sections";
+import { CallToAction, Features, Footer, Header, Hero, LogoTicker, Testimonials } from "@/sections";
 
 
 
@@ -10,6 +10,7 @@ export default function Home() {
     <Features />
     <Testimonials />
     <CallToAction />
+    <Footer />
   </>
 
 }
