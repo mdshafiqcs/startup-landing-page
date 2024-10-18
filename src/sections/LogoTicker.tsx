@@ -2,6 +2,7 @@
 
 import { acmeLogo, apexLogo, celestialLogo, echoLogo, pulseLogo, quantumLogo } from "@/assets/images";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 
 const logos = [
@@ -39,8 +40,21 @@ export const LogoTicker = () => {
         <div className='flex-1 md:flex-none'>
           <h2>Trusted by to innovative teams</h2>
         </div>
-        <div className='flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]'>
-          <div className='flex flex-none gap-14 pr-14'>
+        <div className='flex flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]'>
+          <motion.div 
+            className='flex flex-none gap-14 pr-14'
+            initial={{
+              translateX: "-50%",
+            }}
+            animate={{
+              translateX: "0",
+            }}
+            transition={{
+              duration: 30,
+              repeat: Infinity,
+              ease: "linear"
+            }}
+          >
               {
                 logos.concat(logos).map(({src, alt}, index) => (
                   <Image src={src} alt={alt} key={index} className='flex-none h-6 w-auto ' />
@@ -51,7 +65,7 @@ export const LogoTicker = () => {
                   <Image src={src} alt={alt} key={index} className='flex-none h-6 w-auto ' />
                 ))
               }
-          </div>
+          </motion.div>
         </div>
         
       </div>
