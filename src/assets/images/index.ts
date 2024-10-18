@@ -4,6 +4,7 @@ import avatar3 from "./avatar-3.png";
 import avatar4 from "./avatar-4.png";
 
 import starsBg from "./stars.png";
+import gridLines from "./grid-lines.png";
 
 import acmeLogo from "./logo-acme.png";
 import apexLogo from "./logo-apex.png";
@@ -21,6 +22,7 @@ export {
   avatar2,
   avatar3,
   avatar4,
+  gridLines,
   starsBg,
   acmeLogo,
   apexLogo,
