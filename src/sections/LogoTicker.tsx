@@ -43,11 +43,9 @@ export const LogoTicker = () => {
         <div className='flex flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]'>
           <motion.div 
             className='flex flex-none gap-14 pr-14'
-            initial={{
-              translateX: "-50%",
-            }}
+            
             animate={{
-              translateX: "0",
+              translateX: "-50%",
             }}
             transition={{
               duration: 30,
